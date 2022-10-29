@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.3/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+</head>
+<body>
+    <section class="container">
+        <div class="text-center mt-4">
+            <textarea name="" class="form-control" id="chat" cols="70" rows="25" placeholder="no messages yet"></textarea>
+        </div>
+
+        <div class="text-center">
+
+        </div>
+
+        <div class="row text-center">
+            <input type="text" size="60" id="text" class="col-8 form-control-sm" placeholder="enter your message">
+            <button type="button" id="send" class="btn btn-success col">Send</button>
+            <!-- <button type="button" onclick="leaveRoom()" class="btn btn-danger col">Leave</button> -->
+        </div>
+
+
+   
+        <center></center>    
+        </section>
+    
+</body>
+</html>
